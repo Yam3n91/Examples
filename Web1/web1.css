@@ -1,0 +1,117 @@
+html {
+    background-color: #c5d5cb;
+}
+
+header>nav {
+    display: flex;
+    background: linear-gradient(to bottom right, #9fa8a3, #e3e0cf);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 60px;
+}
+
+.logo {
+    color: black;
+    background: linear-gradient(to bottom left, #9fa8a3, #e3e0cf);
+    background-size: cover;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navi {
+    background: linear-gradient(to bottom right, #9fa8a3, #e3e0cf);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.navi>a {
+    margin: 5px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    text-align: center;
+    background: linear-gradient(#9fa8a3, #c5d5cb);
+    border-radius: 7px;
+}
+
+.side {
+    margin-left: 5px;
+    background: linear-gradient(to bottom right, #9fa8a3, #c5d5cb);
+    border-radius: 7px;
+    height: 60%;
+}
+
+.ques {
+    background: linear-gradient(#9fa8a3, #c5d5cb);
+    background: linear-gradient(to bottom left, #c5d5cb, #9fa8a3);
+    border-radius: 10px;
+    margin-right: 5px;
+    height: 50%;
+}
+
+#message {
+    height: 50px;
+}
+
+.ques>ul>li {
+    margin: 5px;
+}
+
+.side>ul>li {
+    margin: 5px;
+}
+
+.explanation {
+    margin: auto;
+    align-items: center;
+    background-color: #9fa8a3;
+    border-radius: 7px;
+}
+
+#title {
+    text-align: center;
+    background: linear-gradient(#9fa8a3, #c5d5cb);
+    width: 70%;
+    position: relative;
+    left: 14%;
+}
+
+#text {
+    width: 70%;
+    position: relative;
+    left: 14%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.list {
+    background-color: #9fa8a3;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#q {
+    margin-left: 25px;
+}
